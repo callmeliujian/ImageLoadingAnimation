@@ -29,7 +29,7 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
 #warning 更改时间即可调整动画速度
-    [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(clicked) userInfo:nil repeats:true];
+    [NSTimer scheduledTimerWithTimeInterval:0.3 target:self selector:@selector(clicked) userInfo:nil repeats:true];
 }
 
 - (void)clicked {
